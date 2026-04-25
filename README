@@ -1,0 +1,20 @@
+## Nonlinear pendulum model 
+
+### Description
+Model of a non harmonic pendulum using numerical methods and analysis via graph.
+Modeled using Newtons motion of equation for a non harmonic pendulum. Used Euler's numerical method for determining change of angle thus objects position. 
+
+#### Method
+` θ'' =−g​sin(θ)/l - b*θ' `
+using the equation above numerically angular velocity and angle is implemented. Damping is used to measure energy loss 
+
+#### Result
+* The angle vs time graph shows an oscillating pattern, non linear motion for larger angle.
+* Amplitude slowly decreases by time and motion slowly stops due to damping.
+* Energy oscillates between Kinetic and Potential energy. Total energy stays constant through out the time.
+ 
+#### Observation
+* Period slightly differs with larger angles.
+* Compared to simple harmonic pendulum, it gives more realistic result and works for all angles.
+* Damping causes energy loss and motion slowly stops (numerical errors may vary result) 
+
