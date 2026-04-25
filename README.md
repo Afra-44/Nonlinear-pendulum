@@ -16,5 +16,5 @@ using the equation above numerically angular velocity and angle is implemented. 
 #### Observation
 * Period slightly differs with larger angles.
 * Compared to simple harmonic pendulum, it gives more realistic result and works for all angles.
-* Damping causes energy loss and motion slowly stops (numerical errors may vary result) 
+* Damping causes energy loss and motion slowly stops (numerical errors may vary result)
 
